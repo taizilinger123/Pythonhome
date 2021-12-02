@@ -15,7 +15,7 @@ class  Person:
     def  name(self,  name):
          print('setter方法调用了')
          self._name = name 
-
+    # get是必须的，get是读，set是改，读都读不了，更别谈改了，所以get是必须的
     @property
     def  age(self):
         return  self._age 
