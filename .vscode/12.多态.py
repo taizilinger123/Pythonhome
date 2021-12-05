@@ -31,7 +31,9 @@ class C:
 a = A('孙悟空')
 b = B('猪八戒')
 c = C()
-#定义一个函数  
+# 定义一个函数  
+# 对于say_hello()这个函数来说，只要对象中含有name属性，它就可以作为参数传递
+# 这个函数并不会考虑对象的类型，只要有name属性即可
 def  say_hello(obj):
     print('你好 %s'%obj.name)
 
