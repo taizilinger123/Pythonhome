@@ -15,4 +15,3 @@ result = isinstance(nc, MyClass)
 #print('result=', result)
 
 print(id(MyClass), type(MyClass))
-
